@@ -1,0 +1,47 @@
+#home_about {
+  display: flex;
+  padding: 1vw 4vw;
+  height: auto;
+  overflow: hidden;
+}
+
+.home-wrap {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  justify-content: space-between;
+  padding: 2vw;
+  background: var(--color-white);
+  border: 1px solid rgba(82, 63, 105, 0.2);
+  border-radius: 8px;
+}
+
+#home_about .about-img img {
+  border-radius: 8px;
+}
+
+#home_about .about-text {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  align-items: center;
+  border-radius: 8px;
+}
+
+#home_about .about-text .btn {
+  margin-top: 2rem;
+}
+
+@media (max-width: 780px) {
+  #home_about .about-text .btn {
+    bottom: 1em;
+  }
+}
+
+@media (max-width: 450px) {
+  .home-wrap {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

@@ -1,0 +1,29 @@
+.item_detail_card {
+  display: grid;
+  grid-template-columns: var(--grid-template-column);
+  gap: 1rem;
+  justify-content: space-between;
+  padding: 2vw;
+  margin-bottom: 10px;
+  background: var(--color-white);
+  box-shadow: 0px 0px 10px 0px rgba(82, 63, 105, 0.2);
+  border: 1px solid rgba(82, 63, 105, 0.2);
+  border-radius: 8px;
+}
+
+.item_detail_card .item_detail_card-img img {
+  border-radius: 8px;
+}
+
+.item_detail_card .item_detail_card-text {
+  position: relative;
+  width: 100%;
+}
+
+.item_detail_card .item_detail_card-text .btn {
+  position: absolute;
+  bottom: 0;
+}
+
+@media (max-width: 450px) {
+}

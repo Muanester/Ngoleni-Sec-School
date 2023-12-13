@@ -1,0 +1,48 @@
+.profile {
+  width: 100%;
+  height: 300px;
+  background: rgba(24, 24, 25, 0.15);
+  padding: 30px 10px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: var(--container-border-radius-2);
+}
+
+.profile-det {
+  width: 80%;
+  border-right: 1px solid rgb(21, 21, 100);
+  border-left: 1px solid rgb(21, 21, 100);
+}
+
+.profile-det svg {
+  margin-right: 0.2rem;
+  margin-left: 0.2rem;
+}
+
+.profile-det h6 {
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.profile p,
+.profile h6 {
+  height: auto;
+  text-align: center;
+  align-items: center;
+  margin-top: 1vh;
+}
+
+.prof-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.prof-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}

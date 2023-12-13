@@ -1,0 +1,147 @@
+nav {
+  top: 40px;
+  left: 0;
+  right: 0;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--section-padding-lg);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+  background: var(--color-light);
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  transition: all 0.3s ease;
+}
+
+nav img {
+  width: 60px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+nav h1 {
+  text-wrap: nowrap;
+  overflow: hidden;
+  cursor: pointer;
+  font-size: 2.2em;
+  font-weight: 800;
+}
+
+.nav_lists {
+  display: flex;
+}
+
+.nav_lists ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav_lists ul li {
+  list-style: none;
+  margin-left: 25px;
+}
+
+.nav ul li a {
+  color: var(--color-primary);
+  font-size: 1em;
+  font-weight: 700;
+  transition: all 0.3s ease;
+}
+
+.nav ul li a:hover,
+.nav ul li a.active {
+  color: #fdc93b;
+  position: relative;
+
+  &::after {
+    content: "";
+    scale: 1;
+    position: absolute;
+    display: block;
+    height: 3px;
+    background: var(--color-primary);
+    bottom: -5px;
+    left: 0;
+    right: 0;
+  }
+}
+
+.nav_open_menu-icon,
+.small_dev_menu {
+  display: none;
+}
+
+@media (max-width: 780px) {
+  nav {
+    padding: 15px 20px;
+  }
+
+  nav img {
+    width: 60px;
+  }
+
+  .nav_lists {
+    display: none;
+  }
+
+  .nav_open_menu-icon {
+    display: block;
+    font-size: 1.5rem;
+    color: var(--color-primary);
+    cursor: pointer;
+  }
+
+  .small_dev_menu {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 100vh;
+    padding: 2rem;
+    background: rgba(17, 20, 104, 0.45);
+    backdrop-filter: blur(4.5px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    transition: all 0.3s ease;
+  }
+
+  .nav_close_menu-icon {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .small_dev_menu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .nav ul li a {
+    color: var(--color-white);
+  }
+}
+
+@media (max-width: 450px) {
+  nav {
+    height: 70px;
+    gap: 1rem;
+  }
+
+  nav img {
+    width: 50px;
+  }
+
+  nav h1 {
+    text-wrap: wrap;
+    line-height: 1;
+    font-size: 1.5em;
+    font-weight: 800;
+  }
+}
