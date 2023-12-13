@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Ngoleni-Sec-School/static/css/main.1ba22c81.css",
-    "main.js": "/Ngoleni-Sec-School/static/js/main.0c1a030d.js",
+    "main.js": "/Ngoleni-Sec-School/static/js/main.37e5262e.js",
     "static/js/787.82d9734f.chunk.js": "/Ngoleni-Sec-School/static/js/787.82d9734f.chunk.js",
     "static/media/studCouncil.JPG": "/Ngoleni-Sec-School/static/media/studCouncil.65e649417158cb0762f2.JPG",
     "static/media/seniorTeacher.JPG": "/Ngoleni-Sec-School/static/media/seniorTeacher.8278575b5337f8afcac4.JPG",
@@ -29,11 +29,11 @@
     "static/media/slick.woff": "/Ngoleni-Sec-School/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Ngoleni-Sec-School/index.html",
     "main.1ba22c81.css.map": "/Ngoleni-Sec-School/static/css/main.1ba22c81.css.map",
-    "main.0c1a030d.js.map": "/Ngoleni-Sec-School/static/js/main.0c1a030d.js.map",
+    "main.37e5262e.js.map": "/Ngoleni-Sec-School/static/js/main.37e5262e.js.map",
     "787.82d9734f.chunk.js.map": "/Ngoleni-Sec-School/static/js/787.82d9734f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1ba22c81.css",
-    "static/js/main.0c1a030d.js"
+    "static/js/main.37e5262e.js"
   ]
 }
