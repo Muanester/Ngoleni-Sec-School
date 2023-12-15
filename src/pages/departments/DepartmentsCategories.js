@@ -1,18 +1,24 @@
-import Code from "../../assets/code.jpg";
+import SchoolCouncilPic from "../../assets/images/adminImg.JPG";
+import MathsPic from "../../assets/images/depMaths.jpg";
+import LanguangesPic from "../../assets/images/depLanguanges.jpg";
+import SciencesPic from "../../assets/images/depSciences.jpg";
+import HumanitiesPic from "../../assets/images/depHumanities.jpg";
+import BusinessPic from "../../assets/images/depBusiness.jpg";
+import ElectivesPic from "../../assets/images/code.jpg";
 
 let departments_categories = [
   {
     department1: {
-      image: Code,
+      image: SchoolCouncilPic,
       title: "School Council",
       description:
         "The Ngoleni Secondary School Council is the student-led voice of our vibrant community. Committed to advocacy and leadership, we work collaboratively to enhance the student experience and foster unity.",
-      link: "/departments",
+      link: "/admin",
     },
   },
   {
     department2: {
-      image: Code,
+      image: MathsPic,
       title: "Mathematics Department",
       description:
         "The Ngoleni Secondary School Mathematics Department is a dynamic hub of analytical exploration. Dedicated educators inspire students to develop strong problem-solving skills and a deep appreciation for mathematics.",
@@ -21,7 +27,7 @@ let departments_categories = [
   },
   {
     department3: {
-      image: Code,
+      image: LanguangesPic,
       title: "Languages Department",
       description:
         "Ngoleni Secondary School's Languages Department is a space for linguistic exploration and communication. Our educators cultivate language proficiency, literary appreciation, and effective communication skills, preparing students for diverse challenges.",
@@ -30,7 +36,7 @@ let departments_categories = [
   },
   {
     department4: {
-      image: Code,
+      image: SciencesPic,
       title: "Sciences Department",
       description:
         "The Ngoleni Secondary School Sciences Department is a catalyst for curiosity and discovery. Our dedicated educators inspire a passion for scientific inquiry, fostering critical thinking and preparing students for future challenges.",
@@ -39,7 +45,7 @@ let departments_categories = [
   },
   {
     department5: {
-      image: Code,
+      image: HumanitiesPic,
       title: "Humanities Department",
       description:
         "Ngoleni Secondary School's Humanities Department is a gateway to critical thinking and cultural exploration. Educators inspire a deep understanding of history, geography, and societal dynamics, nurturing well-rounded individuals.",
@@ -48,7 +54,7 @@ let departments_categories = [
   },
   {
     department6: {
-      image: Code,
+      image: BusinessPic,
       title: "Business | Agriculture Department",
       description:
         "Ngoleni Secondary School's Business/Agriculture Department is a dynamic realm of practical skills and entrepreneurial mindset. Our educators guide students in understanding business principles and sustainable agricultural practices.",
@@ -57,7 +63,7 @@ let departments_categories = [
   },
   {
     department7: {
-      image: Code,
+      image: ElectivesPic,
       title: "Electives Department",
       description:
         "Ngoleni Secondary School's Electives Department offers diverse and enriching courses beyond the traditional curriculum. Students explore their passions, fostering creativity and honing skills in specialized areas of interest.",

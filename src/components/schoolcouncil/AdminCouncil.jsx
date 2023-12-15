@@ -4,9 +4,9 @@ import {
   ItemDetailCard_ImgL,
   ItemDetailCard_ImgR,
 } from "../../components/itemdetailcard/ItemDetailCard";
-import PrincipalImg from "../../assets/principal.JPG";
-import DepPrincipalImg from "../../assets/depPrincipal.JPG";
-import SnrTeacher from "../../assets/seniorTeacher.JPG";
+import PrincipalImg from "../../assets/images/principal.JPG";
+import DepPrincipalImg from "../../assets/images/depPrincipal.JPG";
+import SnrTeacher from "../../assets/images/seniorTeacher.JPG";
 
 function AdminCouncil(props) {
   return (

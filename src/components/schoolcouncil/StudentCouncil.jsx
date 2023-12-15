@@ -4,9 +4,9 @@ import {
   ItemDetailCard_ImgL,
   ItemDetailCard_ImgR,
 } from "../../components/itemdetailcard/ItemDetailCard";
-import SchCaptain from "../../assets/captain.JPG";
-import DepCaptain from "../../assets/depCaptain.JPG";
-import StudCouncil from "../../assets/studCouncil.JPG";
+import SchCaptain from "../../assets/images/captain.JPG";
+import DepCaptain from "../../assets/images/depCaptain.JPG";
+import StudCouncil from "../../assets/images/studCouncil.JPG";
 
 function StudentCouncil(props) {
   return (

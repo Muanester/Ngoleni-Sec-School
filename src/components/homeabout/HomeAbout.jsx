@@ -1,6 +1,6 @@
 import React from "react";
 import "./HomeAbout.css";
-import Wrap from "../../assets/wrap.jpg";
+import Wrap from "../../assets/images/wrap.jpg";
 import { Link } from "react-router-dom";
 
 function HomeAbout() {

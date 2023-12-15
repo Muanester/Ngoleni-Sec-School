@@ -10,6 +10,7 @@
 
 .person_card-img {
   width: 100%;
+  height: 75%;
   border-radius: var(--container-border-radius-2);
   overflow: hidden;
 }

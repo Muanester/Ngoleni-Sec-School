@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./Navbar.css";
-import Logo from "../../assets/logo.jpg";
+import Logo from "../../assets/images/logo.jpg";
 import { Link, useLocation } from "react-router-dom";
 import { RiMenu3Fill } from "react-icons/ri";
 import { IoMdClose } from "react-icons/io";
